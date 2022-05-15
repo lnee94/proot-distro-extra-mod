@@ -12,5 +12,5 @@ seccent run this in termux:
 
 now it is installed
 to run do
-(in termux)`startall`
+(in termux)`./startall`
 (not in termux)in the vnc viewer go to `localhost:1`
