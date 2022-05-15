@@ -36,5 +36,6 @@ load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1 auth-anonymous=1
 
 
 #start audio and vnc server
-pulseaudio --start
-proot-distro login $DISTRO -- bash -c "rm /tmp/.X11-unix/X* /tmp/.X*-lock ;tightvncserver;bash"
+echo 'pulseaudio --start
+proot-distro login $DISTRO -- bash -c "rm /tmp/.X11-unix/X* /tmp/.X*-lock ;tightvncserver;bash"'>startall
+chmod +x startall
