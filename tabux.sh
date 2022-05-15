@@ -4,14 +4,14 @@
 
 
 
-DEP="awesome" #desktop envronment
-DISTRO="debian"
+DEP="lxde" #desktop envronment
+DISTRO="ubuntu"
 PREFIX="$(dirname $HOME)/usr"
 
 #basic house keeping for termux
 pkg update
 pkg upgrade -y
-pkg install termux-api
+pkg install termux-api 
 
 #steps to get a working chroot
 pkg install proot-distro -y
